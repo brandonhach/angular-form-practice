@@ -3,7 +3,7 @@ import { FormComponent } from './pages/form/form.component';
 import { ReactiveFormComponent } from './pages/reactive-form/reactive-form.component';
 
 import { HomeComponent } from './pages/home/home.component';
-import { TemplateFormComponent } from './components/template-form/template-form.component';
+import { TemplateFormComponent } from './pages/template-form/template-form.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
