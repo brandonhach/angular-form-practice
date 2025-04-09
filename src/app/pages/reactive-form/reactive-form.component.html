@@ -1,1 +1,10 @@
-<p>reactive-form works!</p>
+<div id="main">
+  <form [formGroup]="loginForm" (submit)="submitForm($event)">
+    <h3>Reactive Form</h3>
+    <label for="username">Username</label>
+    <input type="text" name="username" formControlName="username" />
+    <label for="username">Password</label>
+    <input type="password" name="password" formControlName="password" />
+    <button type="submit">Send</button>
+  </form>
+</div>
