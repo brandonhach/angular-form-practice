@@ -1,1 +1,10 @@
-<p>template-form works!</p>
+<div id="main">
+  <form (submit)="submitForm($event)">
+    <h3>Template Form</h3>
+    <label for="username">Username</label>
+    <input type="text" name="username" [(ngModel)]="username" />
+    <label for="username">Password</label>
+    <input type="password" name="password" [(ngModel)]="password" />
+    <button type="submit">Send</button>
+  </form>
+</div>
